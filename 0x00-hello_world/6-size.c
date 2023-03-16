@@ -1,9 +1,11 @@
 #include <stdio.h>
-/**
-* main. a program that prints the size of various computer files
-*return 0 (success)
-*/
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program prints the size in bytes of various data types on the computer.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char a;
@@ -20,4 +22,3 @@ printf("Size of a float: %lu byte(s)\n", (unsigned long) sizeof(f));
 
 return 0;
 }
-
