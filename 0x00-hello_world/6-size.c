@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-/**
+/*
  * main - Entry point of the program
- *
  * Description: This program prints the size in bytes of various data types on the computer.
  * Return: Always 0 (Success)
  */
@@ -13,7 +12,6 @@ int b;
 long int c;
 long long int d;
 float f;
-
 printf("Size of a char: %lu byte(s)\n", (unsigned long) sizeof(a));
 printf("Size of an int: %lu byte(s)\n", (unsigned long) sizeof(b));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long) sizeof(c));
