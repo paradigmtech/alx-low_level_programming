@@ -3,6 +3,7 @@
 /**
  * main - Prints Holberton as a message.
  *
+ * Description: This function prints _putchar using the _putchar function
  * Return: Always 0 (Success)
  */
 int main(void)
